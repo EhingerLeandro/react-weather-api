@@ -32,17 +32,17 @@ function App() {
   console.log(forecastWeather);
 
   return (
-    <div className="container">
-      <h1 style={{fontFamily:"monospace",letterSpacing:"3px"}}>Weather App</h1>
-      <Search onSearchChange={handleOnSearchChange}/>
-      {currentWeather === null ? 
-        <h3 style={{textAlign:"center"}}>Search for a City</h3> : 
-        <CurrentWeather  data={currentWeather}/>}
-      {forecastWeather === null? 
-        <></>:
-        <Forecast data={forecastWeather}/>
-        }
-    </div>
+      <div className="container">
+        <h1 style={{fontFamily:"monospace",letterSpacing:"3px"}}>Weather App</h1>
+        <Search onSearchChange={handleOnSearchChange}/>
+        {currentWeather === null ? 
+          <h3 style={{textAlign:"center"}}>Search for a City</h3> : 
+          <CurrentWeather  data={currentWeather}/>}
+        {forecastWeather === null? 
+          <></>:
+          <Forecast data={forecastWeather}/>
+          }
+      </div>
   )
 }
 
