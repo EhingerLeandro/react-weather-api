@@ -1,0 +1,63 @@
+.allAccordion{
+    margin-top:10px
+}
+
+.title{
+    font-size:25px;
+    font-weight:700;
+}
+
+.daily-item{
+    background-color: #f5f5f5;
+    border-radius:15px;
+    margin:5px 0px;
+    padding:5px;
+    font-size:15px;
+    display:flex;
+}
+
+.icon-small{
+    height:30px;
+}
+
+.forecastDay{
+    color:#212121;
+    flex: 1 1;
+    margin: 10px 0px 0px 15px;
+    font-weight:600;
+}
+
+.forecastDesc{
+    flex:1 1;
+}
+
+.forecastTemp{
+    color:#757575;
+}
+
+.daily-details-grid{
+    display:grid;
+    grid-row-gap:0;
+    grid-column-gap:15px;
+    column-gap:15px;
+    grid-template-columns:auto auto;
+    padding:5px 15px;
+    /* flex:1 1; */
+}
+
+.daily-details-item{
+    display:flex;
+    height:30px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.daily-details-item label:first-child{
+    font-weight:700;
+    color:#656565;
+}
+
+.daily-details-item label:first-child{
+    /* font-weight:700; */
+    color:#212121;
+}
